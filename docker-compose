@@ -1,0 +1,7 @@
+version: '3'
+services:
+  tomcatapp:
+      hostname: tomcat
+      build: .
+      ports:
+        - 20200:8080
