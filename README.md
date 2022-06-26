@@ -1,4 +1,4 @@
-# docker-exe2
+#!/bin/bash
 docker build -t tomcat:v1 .
 docker history ae20a71d367c (EXPOSE 8080)
 docker inspect ae20a71d367c 'ExposedPorts'
